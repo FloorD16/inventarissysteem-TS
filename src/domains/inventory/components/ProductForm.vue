@@ -12,7 +12,6 @@ const emit = defineEmits(['newProduct']);
 
 const submit = () => {
     emit('newProduct', productCopy.value);
-    router.push({ name: 'inventory.overview' });
 }
 
 const backToOverview = () => {
